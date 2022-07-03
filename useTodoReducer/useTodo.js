@@ -1,6 +1,6 @@
 
 import { useEffect, useReducer } from 'react';
-import { todoReducer } from './../components/08-useReducer/todoReducer';
+import { todoReducer } from './todoReducer';
 
 const estadoIniciar = [
     //El estado es un array de objetos que esta formado de dos propiedades: id , descripcion y dona: es un booleano 
